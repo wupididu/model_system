@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2021-04-15T10:03:39.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.86 YaBrowser/21.3.1.91 Yowser/2.5 Safari/537.36" version="14.6.0" etag="EzB8DDskRtzrNo9pmqch" type="github"><diagram id="msjONdrmgMWZphAO8xTD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-15T10:12:22.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.86 YaBrowser/21.3.1.91 Yowser/2.5 Safari/537.36" etag="wPASJD_dg73FBErR23RH" version="14.6.0" type="github">
+  <diagram id="msjONdrmgMWZphAO8xTD" name="Page-1">
+    <mxGraphModel dx="1422" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KraO28MobqA_J2qz_sNt-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KraO28MobqA_J2qz_sNt-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KraO28MobqA_J2qz_sNt-2" target="KraO28MobqA_J2qz_sNt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KraO28MobqA_J2qz_sNt-2" value="RG_A := Input1&lt;br&gt;RG_B := input2&lt;br&gt;CT := input3&lt;br&gt;(CT = 4)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KraO28MobqA_J2qz_sNt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KraO28MobqA_J2qz_sNt-3" target="KraO28MobqA_J2qz_sNt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KraO28MobqA_J2qz_sNt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KraO28MobqA_J2qz_sNt-3" target="KraO28MobqA_J2qz_sNt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KraO28MobqA_J2qz_sNt-3" value="CT := 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KraO28MobqA_J2qz_sNt-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KraO28MobqA_J2qz_sNt-6" target="KraO28MobqA_J2qz_sNt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KraO28MobqA_J2qz_sNt-6" value="A = [RG_R[n-2:0], RG_A[n-1]]&lt;br&gt;B = RG_B&lt;br&gt;SM = A + B&lt;br&gt;RG_R = SM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="310" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KraO28MobqA_J2qz_sNt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KraO28MobqA_J2qz_sNt-7" target="KraO28MobqA_J2qz_sNt-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="415" />
+              <mxPoint x="680" y="210" />
+              <mxPoint x="414" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KraO28MobqA_J2qz_sNt-7" value="SM_R -&amp;gt; RG_A&lt;br&gt;CT--" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KraO28MobqA_J2qz_sNt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KraO28MobqA_J2qz_sNt-11" target="KraO28MobqA_J2qz_sNt-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="330" />
+              <mxPoint x="200" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KraO28MobqA_J2qz_sNt-11" value="R0 := 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
