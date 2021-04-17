@@ -1,1 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T14:39:46.586Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.86 YaBrowser/21.3.1.185 Yowser/2.5 Safari/537.36" version="14.6.1" etag="-uAoywS-a3YzNocqK-2R" type="github"><diagram id="O_rBsHgg4gaOd4AerhsT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-17T15:03:56.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.86 YaBrowser/21.3.1.185 Yowser/2.5 Safari/537.36" etag="7suH2UsM9teK-1yFDfp8" version="14.6.1" type="github">
+  <diagram id="O_rBsHgg4gaOd4AerhsT" name="Page-1">
+    <mxGraphModel dx="1422" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8tzpSax_T6uARfR0JbbL-1" value="Студент" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="110" y="100" width="20" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8tzpSax_T6uARfR0JbbL-1">
+          <mxGeometry x="5" y="70" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-3" value="Слушатель" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="100" width="20" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8tzpSax_T6uARfR0JbbL-3">
+          <mxGeometry x="5" y="150" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-6" value="Запись на семинар" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="100" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8tzpSax_T6uARfR0JbbL-6">
+          <mxGeometry x="15" y="120" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-7" value="Проверка подготовленности студента" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="100" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8tzpSax_T6uARfR0JbbL-7">
+          <mxGeometry x="15" y="170" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-9" value="Список пройденных курсов" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="100" width="40" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8tzpSax_T6uARfR0JbbL-9">
+          <mxGeometry x="15" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-19" value="Проверка запроса" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" target="8tzpSax_T6uARfR0JbbL-7" parent="1" source="8tzpSax_T6uARfR0JbbL-3">
+          <mxGeometry x="0.1065" relative="1" as="geometry">
+            <mxPoint x="460" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="460" y="270" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-22" value="Отправка запроса" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" target="8tzpSax_T6uARfR0JbbL-3" parent="1" source="8tzpSax_T6uARfR0JbbL-6">
+          <mxGeometry x="0.0733" relative="1" as="geometry">
+            <mxPoint x="300" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="310" y="260" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-25" value="Запрос на список курсов" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="8tzpSax_T6uARfR0JbbL-24" parent="1" source="8tzpSax_T6uARfR0JbbL-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-26" value="Список курсов" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="8tzpSax_T6uARfR0JbbL-24" parent="1" target="8tzpSax_T6uARfR0JbbL-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-27" value="Зарос на запись" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="8tzpSax_T6uARfR0JbbL-1" target="8tzpSax_T6uARfR0JbbL-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="150" y="230" as="sourcePoint" />
+            <mxPoint x="200" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-20" value="Готовность студента" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="8tzpSax_T6uARfR0JbbL-18" parent="1" target="8tzpSax_T6uARfR0JbbL-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-23" value="Решение слушателя" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="8tzpSax_T6uARfR0JbbL-21" parent="1" target="8tzpSax_T6uARfR0JbbL-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tzpSax_T6uARfR0JbbL-28" value="Результат записи" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.7;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.791;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8tzpSax_T6uARfR0JbbL-11" target="8tzpSax_T6uARfR0JbbL-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="440" as="sourcePoint" />
+            <mxPoint x="140" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
